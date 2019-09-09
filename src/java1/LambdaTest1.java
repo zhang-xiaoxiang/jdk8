@@ -79,6 +79,9 @@ public class LambdaTest1 {
 
     }
 
+    /**
+     * 凑数的测试
+     */
     @Test
     public void test3A() {
         //类型推断
@@ -141,7 +144,4 @@ public class LambdaTest1 {
         Comparator<Integer> com2 = (o1, o2) -> o1.compareTo(o2);
         System.out.println(com2.compare(12, 21));
     }
-
-
-
 }
